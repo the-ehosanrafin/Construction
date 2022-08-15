@@ -1,0 +1,36 @@
+#hero .background{
+    background: url("https://images01.nicepage.com/2c/aa/2caae017a61202f87bc36fab57e85a63.png"),rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.line {
+	width: 100px;
+	height: 3px;
+	background: #ffc107;
+    border: none !important;
+}
+#hero .button a:nth-child(1){
+    background: #ffc107;
+    padding: 8px 15px;
+}
+#hero .button a:nth-child(1):hover{
+    background: #b08608;
+    
+}
+#hero .button a:nth-child(2){
+    padding: 6px 15px;
+}
+#hero .button a:nth-child(2):hover{
+    color: black !important; 
+    background: #ffffff;
+}
+
+#greeting a{
+    background: #ffc107;
+    padding: 8px 15px;
+}
+#greeting a:hover{
+    background: #b08608;
+}
