@@ -117,3 +117,13 @@
     background-size: cover;
     height: 230px;
 }
+
+
+
+#count{
+    background: url("https://images01.nicepage.com/23/2c/232c6d839624da0ae42d0f0b813ed0e8.jpeg")rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
