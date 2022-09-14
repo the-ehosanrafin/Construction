@@ -1,129 +1,133 @@
-#hero .background{
-    background: url("https://images01.nicepage.com/2c/aa/2caae017a61202f87bc36fab57e85a63.png"),rgba(0, 0, 0, 0.7);
-    background-blend-mode: darken;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  overflow-x: hidden;
+}
+#hero .background {
+  background: url("https://images01.nicepage.com/2c/aa/2caae017a61202f87bc36fab57e85a63.png"),
+    rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .line {
-	width: 100px;
-	height: 3px;
-	background: #ffc107;
-    border: none !important;
+  width: 100px;
+  height: 3px;
+  background: #ffc107;
+  border: none !important;
 }
-#hero .button a:nth-child(1){
-    background: #ffc107;
-    padding: 8px 15px;
+#hero .button a:nth-child(1) {
+  background: #ffc107;
+  padding: 8px 15px;
 }
-#hero .button a:nth-child(1):hover{
-    background: #b08608;
-    
+#hero .button a:nth-child(1):hover {
+  background: #b08608;
 }
-#hero .button a:nth-child(2){
-    padding: 6px 15px;
+#hero .button a:nth-child(2) {
+  padding: 6px 15px;
 }
-#hero .button a:nth-child(2):hover{
-    color: black !important; 
-    background: #ffffff;
-}
-
-#greeting a{
-    background: #ffc107;
-    padding: 8px 15px;
-}
-#greeting a:hover{
-    background: #b08608;
+#hero .button a:nth-child(2):hover {
+  color: black !important;
+  background: #ffffff;
 }
 
-#feature .row .box{
-    height: 240px;
+#greeting a {
+  background: #ffc107;
+  padding: 8px 15px;
 }
-#feature .row .box:nth-child(1){
-    background: url("https://images01.nicepage.com/bf/37/bf37f8217e4b71feb26707d632c6845d.png"),rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#feature .row .box:nth-child(2){
-    background: url("https://images01.nicepage.com/45/78/457883519366bc77e9ffb4294b44f8df.png"),rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#feature .row .box:nth-child(3){
-    background: url("https://images01.nicepage.com/35/97/35970472e6f88da51190947c84ba6f2a.png"),rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#greeting a:hover {
+  background: #b08608;
 }
 
-
-#portfolio .row .box:nth-child(1){
-    background: url("https://images01.nicepage.com/28/9d/289d0988df9ccafe391c5a296f327b0e.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 230px;
+#feature .row .box {
+  height: 240px;
 }
-#portfolio .row .box:nth-child(2){
-    background: url("https://images01.nicepage.com/f6/99/f6999cf8d7fee900e76ee65fd1827c4f.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 230px;
+#feature .row .box:nth-child(1) {
+  background: url("https://images01.nicepage.com/bf/37/bf37f8217e4b71feb26707d632c6845d.png"),
+    rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#portfolio .row .box:nth-child(3){
-    background: url("https://images01.nicepage.com/dc/d4/dcd4c46d0ca35931cafdc77fd8bb3568.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 230px;
+#feature .row .box:nth-child(2) {
+  background: url("https://images01.nicepage.com/45/78/457883519366bc77e9ffb4294b44f8df.png"),
+    rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#portfolio .row .box:nth-child(4){
-    background: url("https://images01.nicepage.com/a6/ac/a6ac58a6e4e6965bce3fda2c36e43e94.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 230px;
-}
-#portfolio .row .box:nth-child(5){
-    background: url("https://images01.nicepage.com/60/da/60daec789521593f3dd91cb1bb3d7d60.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 230px;
-}
-#portfolio .row .box:nth-child(6){
-    background: url("https://images01.nicepage.com/dc/a2/dca2e7f841dc5201337d6b80dfffe9f6.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 230px;
-}
-#portfolio .row .box:nth-child(7){
-    background: url("https://images01.nicepage.com/51/6d/516d0cf7e883585853018116d942949c.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 230px;
-}
-#portfolio .row .box:nth-child(8){
-    background: url("https://images01.nicepage.com/24/f2/24f25b480b4e49ccb7c463893d04da4d.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 230px;
+#feature .row .box:nth-child(3) {
+  background: url("https://images01.nicepage.com/35/97/35970472e6f88da51190947c84ba6f2a.png"),
+    rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+#portfolio .row .box:nth-child(1) {
+  background: url("https://images01.nicepage.com/28/9d/289d0988df9ccafe391c5a296f327b0e.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+}
+#portfolio .row .box:nth-child(2) {
+  background: url("https://images01.nicepage.com/f6/99/f6999cf8d7fee900e76ee65fd1827c4f.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+}
+#portfolio .row .box:nth-child(3) {
+  background: url("https://images01.nicepage.com/dc/d4/dcd4c46d0ca35931cafdc77fd8bb3568.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+}
+#portfolio .row .box:nth-child(4) {
+  background: url("https://images01.nicepage.com/a6/ac/a6ac58a6e4e6965bce3fda2c36e43e94.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+}
+#portfolio .row .box:nth-child(5) {
+  background: url("https://images01.nicepage.com/60/da/60daec789521593f3dd91cb1bb3d7d60.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+}
+#portfolio .row .box:nth-child(6) {
+  background: url("https://images01.nicepage.com/dc/a2/dca2e7f841dc5201337d6b80dfffe9f6.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+}
+#portfolio .row .box:nth-child(7) {
+  background: url("https://images01.nicepage.com/51/6d/516d0cf7e883585853018116d942949c.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+}
+#portfolio .row .box:nth-child(8) {
+  background: url("https://images01.nicepage.com/24/f2/24f25b480b4e49ccb7c463893d04da4d.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 230px;
+}
 
-
-#count{
-    background: url("https://images01.nicepage.com/23/2c/232c6d839624da0ae42d0f0b813ed0e8.jpeg")rgba(0, 0, 0, 0.5);
-    background-blend-mode: darken;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#count {
+  background: url("https://images01.nicepage.com/23/2c/232c6d839624da0ae42d0f0b813ed0e8.jpeg")
+    rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
