@@ -131,3 +131,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#testiminial .bottom .photo{
+  position: relative;
+  bottom: 50px;
+}
